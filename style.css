@@ -1,0 +1,76 @@
+@charset "utf-8";
+
+/**css style notes will be written like this to let you know its a comment**/
+
+body{
+ background-image: url("ep_naturalblack.png");
+ font-family: 'Nanum Gothic', sans-serif; 
+ color: white;
+ min-height: 400px;
+ margin-bottom: 100px;
+ clear: both;
+ text-align: center;
+}
+#pagewrapper{
+ margin-right: auto;
+ margin-left: auto;
+ margin-top: 0px;
+ margin-bottom: 0px;
+ width: 960px;
+}
+
+.navbar{
+ background-color: rgb(41, 41, 73);
+ margin: auto;
+
+}
+ul{
+ list-style-type: none;
+ justify-content: space-evenly;
+ display: flex;
+}
+li{
+ margin: auto;
+ padding: 20px 20px;
+ font-size: 20px;
+ 
+}
+.beforehr{
+ text-align: center;
+
+}
+a{
+ text-decoration: none;
+ color: white;
+}
+.aboutmeone{
+ text-align: center;
+}
+
+.one{
+ text-align: left;
+}
+
+
+.points ul li{
+ list-style-type: disc;
+ 
+}
+
+.pro_exp{
+ text-align: left;
+}
+
+
+
+.footernav{
+ background-color:rgb(41, 41, 73) ;
+ position: fixed;
+ bottom: 0;
+ left: 0;
+ right: 0;
+ padding: 1rem;
+ text-align: center;
+ height: 50px;
+ width: auto;
+}
